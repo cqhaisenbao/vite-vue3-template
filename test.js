@@ -1,3 +1,3 @@
 const a = {
   name: 'luff'
-};
+}
