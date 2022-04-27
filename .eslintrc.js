@@ -1,14 +1,14 @@
 module.exports = {
   env: {
-    'vue/setup-compiler-macros': true,
+    'vue/setup-compiler-macros': true
   },
   extends: ['plugin:vue/vue3-essential', 'standard'],
   parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: '@typescript-eslint/parser',
+    parser: '@typescript-eslint/parser'
   },
   plugins: ['vue', 'eslint-plugin-vue'],
   rules: {
-    'space-before-function-paren': 0,
-  },
+    'space-before-function-paren': 0
+  }
 }
