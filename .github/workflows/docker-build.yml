@@ -24,3 +24,5 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: cqhaisenbao/web-test:lastest
+      - name: deploy web
+        run: curl 150.158.13.101
